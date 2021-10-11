@@ -1,6 +1,19 @@
-package App.Lesson;
+package App.Lesson.Method;
+
+import App.Route;
 
 public class Recursion {
+
+    public static void main(String[] args) {
+        System.out.println("Get Recursion Lesson");
+        System.out.println("|--------------------|");
+        Recursion rec = new Recursion();
+        System.out.println("Summary: " + rec.sumResult());
+        System.out.println("Factorial: " + rec.facResult());
+        System.out.println("\n\n");
+        Route.GetRoute();
+    }
+
     public static int sumResult() {
         int result = sum(10);
         return result;

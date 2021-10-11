@@ -1,4 +1,4 @@
-package App.Lesson;
+package App.Lesson.Method;
 
 public class Variable {
     public static void main(String[] args) {

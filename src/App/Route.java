@@ -11,17 +11,18 @@ public class Route {
 
     /* Enter Route */
     public static void GetRoute() {
+
         //Input Route
         Map<String, Runnable> map = new HashMap<>();
 
         // Define Route and Controller
-        map.put("variable", ()->LessonController.VariableLesson());
-        map.put("overloading", ()->LessonController.OverloadingLesson());
-        map.put("recursion", ()->LessonController.RecursionLesson());
+//        map.put("variable", ()->LessonController.VariableLesson());
+        map.put("method", ()->LessonController.MethodLesson());
+        map.put("classes", ()->LessonController.ClassesLesson());
         map.put("exit", ()->System.exit(0));
         map.put("clear", ()->ConsoleManagement.ClearConsole());
 
-        String input = InputManagement.Input();
+        String input = InputManagement.RouteInput();
         Boolean checkValue = map.containsKey(input);
         Runnable method =  map.get(input);
 
