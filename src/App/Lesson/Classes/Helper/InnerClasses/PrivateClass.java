@@ -1,4 +1,4 @@
-package App.Lesson.Classes.Helper;
+package App.Lesson.Classes.Helper.InnerClasses;
 
 public class PrivateClass {
     int x = 10;

@@ -1,6 +1,6 @@
 package App.Lesson.Classes;
 
-import App.Lesson.Classes.Helper.Default;
+import App.Lesson.Classes.Helper.InnerClasses.Default;
 
 public class ClassInnerclasses {
     public static void main(String[] args) {

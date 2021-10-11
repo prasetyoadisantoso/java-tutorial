@@ -15,6 +15,8 @@ public class MainClasses {
         System.out.println("=> Class Inheritance = 'class-inheritance' ");
         System.out.println("=> Class Polymorphisme = 'class-polymorphisme' ");
         System.out.println("=> Class InnerClasses = 'class-innerclasses' ");
+        System.out.println("=> Class Abstraction = 'class-abstraction' ");
+        System.out.println("=> Class Abstraction = 'class-interface' ");
         System.out.print("Select sub-lesson > ");
         String input = InputManagement.StandardInput();
 
@@ -48,6 +50,12 @@ public class MainClasses {
                 break;
             case "class-innerclasses":
                 ClassInnerclasses.main(null);
+                break;
+            case "class-abstraction":
+                ClassAbstraction.main(null);
+                break;
+            case "class-interface":
+                ClassInterface.main(null);
                 break;
             default:
                 MainClasses.main(null);

@@ -16,7 +16,7 @@ public class Route {
         Map<String, Runnable> map = new HashMap<>();
 
         // Define Route and Controller
-//        map.put("variable", ()->LessonController.VariableLesson());
+        // map.put("variable", ()->LessonController.VariableLesson());
         map.put("method", ()->LessonController.MethodLesson());
         map.put("classes", ()->LessonController.ClassesLesson());
         map.put("exit", ()->System.exit(0));
